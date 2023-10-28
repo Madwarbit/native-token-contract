@@ -77,8 +77,8 @@ contract QKCToken is ERC20Interface {
 
     constructor() {
         owner = msg.sender;
-        symbol = "QKC";
-        name = "QuickNode Coin";
+        symbol = "NTC";
+        name = "NEW TOKEN Coin";
         decimals = 2;
         _totalSupply = 100000;
         balances[owner] = _totalSupply;
