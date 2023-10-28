@@ -80,7 +80,7 @@ contract QKCToken is ERC20Interface {
         symbol = "NTC";
         name = "NEW TOKEN Coin";
         decimals = 2;
-        _totalSupply = 100000;
+        _totalSupply = 4000000000;
         balances[owner] = _totalSupply;
         logicContract = address(this); // Set initial logic contract to self
         paused = false;
