@@ -44,7 +44,7 @@ interface ApproveAndCallFallBack {
 }
 
 // Actual token contract
-contract QKCToken is ERC20Interface {
+contract NTCToken is ERC20Interface {
     using SafeMath for uint;
 
     string public symbol;
